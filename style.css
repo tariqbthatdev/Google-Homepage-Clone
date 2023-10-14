@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+}
+
+.inline {
+    max-width: 400px;
+    margin:auto;
+}
+
+.input-icons i {
+    position: absolute;
+    color: #919191;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+    border-radius: 25px;
+}
+
+.logo {
+    max-width: 300px;
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(238, 238, 238);
+}

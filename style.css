@@ -2,6 +2,18 @@
     font-family: sans-serif;
 }
 
+nav {
+    display: inline;
+}
+
+.main {
+    padding-top: 5%;
+    padding-bottom: 50%;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+
 .inline {
     max-width: 400px;
     margin:auto;

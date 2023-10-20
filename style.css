@@ -4,20 +4,39 @@
     text-align: center;
 }
 
+.nav1 a, .nav2 a, .searchbtn, .randombtn {
+    color: black; 
+}
+
+/* Navbar section */
 nav {
     display: inline;
+    margin-top: 100px;
 }
 
 a {
     text-decoration: none;
 }
 
-.nav1 a, .nav2 a, .searchbtn, .randombtn {
-    color: black; 
+nav a:hover, footer a:hover {
+    text-decoration: underline;
 }
 
+
+.nav1 {
+    margin-right: 600px;
+    width: 100%;
+}
+
+.nav1 a, .nav2 a {
+    margin: 5px;
+}
+
+/* Main Section */
 .main {
     margin: 10%;
+    /* width: 100%;
+    text-align: center; */
 }
 
 .buttons {
@@ -31,8 +50,8 @@ a {
 }
 
 .inline {
-    max-width: 400px;
-    margin:auto;
+    max-width: 300px;
+    margin: auto 100px;
 }
 
 .input-icons i {
@@ -51,20 +70,23 @@ a {
 }
   
 .input-field {
-    width: 100%;
+    width: 500px;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 3px;
     border-radius: 25px;
 }
 
 .logo {
     max-width: 300px;
-    margin: auto;
+    margin: 25px auto;
 }
 
+/* Footer section */
 footer {
     background-color: rgb(238, 238, 238);
     position: fixed;
     bottom: 0;
+    padding: 20px;
+    width: 100%;
 }
